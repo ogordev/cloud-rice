@@ -153,6 +153,8 @@ brew install --cask cutter
 brew install --cask font-hack-nerd-font
 # Install VLC, a free and open source cross-platform multimedia player and framework
 brew install --cask vlc
+# storage visualizer
+brew install --cask grandperspective
 
 # Mac App Store Apps
 echo "Installing Mac App Store Apps..."
