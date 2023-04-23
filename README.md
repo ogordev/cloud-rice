@@ -1,5 +1,15 @@
 # cloud-rice
 
+Top right bar: the bell is the notification but it is not very explicit that the box is the number of outdated brew packages.
+Maybe you could make it a bit clearer by adding an infotooltip when the user hovers mouse over the icon?
+
+When all the packages are up to date the box turns green and there is a tick on the right next to it.
+
+This, along with the Github Notification Bell makes it extremely easy to stay on top of things as you develop your project.
+
+
+
+blah blah blah
 <div align="center">
   <img src="https://example.com/your-logo.png" alt="Your Project Logo" width="200">
   <h1>Your Project Name</h1>
