@@ -9,16 +9,7 @@
 #
 yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 sudo yabai --load-sa
-
-#test
-yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
-yabai -m signal --add event=window_focused action="sketchybar --trigger window_focus"
-yabai -m signal --add event=display_added action="sleep 2 && $HOME/.config/yabai/create_spaces.sh"
-yabai -m signal --add event=display_removed action="sleep 1 && $HOME/.config/yabai/create_spaces.sh"
-yabai -m signal --add event=window_created action="sketchybar --trigger windows_on_spaces"
-yabai -m signal --add event=window_destroyed action="sketchybar --trigger windows_on_spaces"
-
-$HOME/.config/yabai/create_spaces.sh
+#
 
 # global settings
 yabai -m config \
@@ -54,14 +45,14 @@ yabai -m config \
 	mouse_action1 move \
 	mouse_action2 resize \
 	mouse_drop_action swap \
-	external_bar all:36:0
+	external_bar all:25:0
 
-yabai -m rule --add app="^(LuLu|Software Update|Dictionary|VLC|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|Python|LibreOffice|App StoreAlfred|Activity Monitor)$" manage=off
+yabai -m rule --add app="^System Settings$" sticky=on manage=off
 yabai -m rule --add app="Stats" sticky=on manage=off
-yabai -m rule --add app="Calculator" sticky=off manage=off
+yabai -m rule --add app="Calculator" sticky=on manage=off
 #yabai -m rule --add app="^Finder$" sticky=on manage=off
 #yabai -m rule --add app="^Disk Utility$" sticky=on manage=off
-yabai -m rule --add app="^System Information$" sticky=yes manage=yes
+yabai -m rule --add app="^System Information$" sticky=on manage=off
 yabai -m rule --add app="^Activity Monitor$" sticky=on manage=off
 yabai -m rule --add app="^console$" manage=off
 yabai -m rule --add app="^Digital Colou?r Meter$" sticky=on manage=off

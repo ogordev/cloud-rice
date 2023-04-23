@@ -1,0 +1,55 @@
+{
+	"analytics-uuid": "4e314e48-a5ca-4357-9d70-3103d9f17a85",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1680318178654
+	},
+	"usage": false,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "110225365136338594108",
+		"email": "pr.management.igor@gmail.com",
+		"email_verified": true,
+		"at_hash": "MfE0VajSLeO43svin1nU5w",
+		"iat": 1676459276,
+		"exp": 1676462876
+	},
+	"tokens": {
+		"expires_at": 1680322450635,
+		"refresh_token": "1//09nMYA2Zdg8AZCgYIARAAGAkSNwF-L9IrpvF5FhNnZf9dKe7bm9Iaov6UTv_mIUbL2jN6Wji9AkUEfXDucdTryfBN7iAOOP64Nzo",
+		"scopes": [],
+		"access_token": "ya29.a0Ael9sCOmQSigHsiJH5oB3yyd0QGBQR9h56xhurU7TItrUmtkrPQWf2VcW3n18fRRYdFkk_5j0bPWbvkPE0220ta1S7pf7a2889y1rqa9vumSHJGctCnxD3mWbGC2EESoj3v6Xo-GP-r1O0xlbhL5_gaCfpIq5Qu5cCS4R3waCgYKAS8SARMSFQF4udJhMSQbY3vFVxRqnDRAgG0oNw0174",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email openid",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjFhYWU4ZDdjOTIwNThiNWVlYTQ1Njg5NWJmODkwODQ1NzFlMzA2ZjMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEwMjI1MzY1MTM2MzM4NTk0MTA4IiwiZW1haWwiOiJwci5tYW5hZ2VtZW50Lmlnb3JAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJvdm5WQzFPWE5rZ0lxQ0F2NUlPZER3IiwiaWF0IjoxNjgwMzQwNDU3LCJleHAiOjE2ODAzNDQwNTd9.J1xHtuPuCWQkuG1P8yus6z4fKhtsaE3zqTjgysqdb_fGCrxBxE5kgBLW-HTzqYTiQc7YyVCqRlAuuqVFTTegN62DkCz-U0RaIy29O06Yu--d0adhM-ZIP1uAGk9OLiYD2Bc6i9M5mRBLAXic12fu6AwSF1JWnuzF8JXFFD_gvxW8zS_7bSM4uVtHFKtFmKijSDU0ys7i23CVExFd8lkr3t8QUw3Z6bSuuzWC4bVl5bdPAj3b3H4X_WGrjHoof6VN8j7mD7nx_hUZHjttBjjT9uBpeNdYom02X6_NnHShyfWSs-T2o-3TcMiPJofufghXB7RSTwy2cYt44zwcN-moNA"
+	},
+	"activeProjects": {
+		"/Users/ogor/dev/portofolio": "portofolio-cdf25"
+	},
+	"lastError": 1680339074984,
+	"adminsdkconfig": {
+		"moonlight-de2f8": {
+			"projectId": "moonlight-de2f8",
+			"storageBucket": "moonlight-de2f8.appspot.com"
+		}
+	},
+	"webconfig": {
+		"moonlight-de2f8": {
+			"projectId": "moonlight-de2f8",
+			"appId": "1:703209679152:web:4a2cf70b9663ea8b7600f5",
+			"storageBucket": "moonlight-de2f8.appspot.com",
+			"apiKey": "AIzaSyDSo2XbSPsvJ3u2iddfFg-sUoanCCw_aiw",
+			"authDomain": "moonlight-de2f8.firebaseapp.com",
+			"messagingSenderId": "703209679152"
+		}
+	}
+}
