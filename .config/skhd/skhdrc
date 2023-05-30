@@ -57,4 +57,3 @@ shift + ctrl + alt - 3 : yabai -m window --display 3;
 
 # rotate tree
 ctrl + alt + cmd - r : yabai -m space --rotate 90
-
