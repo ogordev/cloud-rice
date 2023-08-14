@@ -32,10 +32,10 @@ yabai -m config \
 	window_animation_duration 0.005 \
 	window_opacity_duration 0 \
 	active_window_opacity 1.0 \
-	normal_window_opacity 0.667 \
+	normal_window_opacity 0.6 \
 	insert_feedback_color 0x00d75f5f \
-	active_window_border_color 0xffca9ee6 \
-	normal_window_border_color 0xffca9ee6 \
+	active_window_border_color 0xffb2dfdb \
+	normal_window_border_color 0xff4db6ac \
 	window_border_width 0.01 \
 	window_border_radius 12 \
 	window_border_blur on \
