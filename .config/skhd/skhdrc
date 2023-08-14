@@ -53,7 +53,7 @@ shift + ctrl - right : yabai -m window --space next; yabai -m space --focus next
 # shift + ctrl + alt - 3 : yabai -m window --display 3;
 
 # create desktop, move window and follow focus
-ctrl + cmd - m : sh /Users/ogor/.dotfiles/bin/usr/yabai/move_to_empty_space
+ctrl + cmd + alt - m : sh /Users/ogor/.dotfiles/bin/usr/yabai/move_to_empty_space
 
 # rotate tree
 ctrl + alt + cmd - r : yabai -m space --rotate 90
