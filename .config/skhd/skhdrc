@@ -65,10 +65,10 @@ cmd + shift - return : ~/dev/1/scr1pts/restart.sh
 # cmd + shift + alt - return : ~/dev/1/scr1pts/update.sh
 
 # (alt) change focus (using arrow keys)
-alt - left  : yabai -m window --focus west
-alt - down  : yabai -m window --focus south
-alt - up    : yabai -m window --focus north
-alt - right : yabai -m window --focus east
+# alt - left  : yabai -m window --focus west
+# alt - down  : yabai -m window --focus south
+# alt - up    : yabai -m window --focus north
+# alt - right : yabai -m window --focus east
 
 # move focused window to previous workspace
 alt + shift - b : yabai -m window --space recent; \
